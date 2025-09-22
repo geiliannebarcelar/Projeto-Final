@@ -1,0 +1,61 @@
+/* ---------- Estilo geral da página ---------- */
+/* Define a fonte padrão,Remove as margens padrão do navegador, Cor de fundo da página,Cor do texto */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+/* ---------- Cabeçalho ---------- */
+header {
+  background: #4CAF50;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+/* ---------- Conteúdo principal (card central) ---------- */
+main {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+/* ---------- Formulário ---------- */
+form {
+  display: grid;
+  gap: 1rem;
+}
+/* ---------- Rótulos dos inputs ---------- */
+label {
+  font-weight: bold;
+}
+/* ---------- Inputs e botões ---------- */
+input, button {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+/* ---------- Botão principal ---------- */
+button {
+  background: #4CAF50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+/* ---------- Efeito hover no botão ---------- */
+button:hover {
+  background: #45a049;
+}
+/* ---------- Seção da lista de reservas ---------- */
+#listaReservas {
+  margin-top: 2rem;
+}
+/* ---------- Estilo de cada item da lista de reservas ---------- */
+#reservas li {
+  background: #e8f5e9;
+  padding: 0.8rem;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
